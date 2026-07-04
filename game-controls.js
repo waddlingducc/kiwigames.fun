@@ -222,7 +222,7 @@
       return (i ? '<span class="kiwi-foot-sep">\u00b7</span>' : '') +
         '<a href="' + l[0] + '">' + l[1] + '</a>';
     }).join('');
-    html += '<span class="kiwi-foot-copy">\u00a9 2026 kiwi \u2014 games belong to their owners.</span>';
+    html += '<span class="kiwi-foot-copy">\u00a9 2026 kiwi</span>';
     var f = document.createElement('footer');
     f.className = 'kiwi-footer';
     f.innerHTML = html;
